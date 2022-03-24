@@ -1,13 +1,16 @@
 // Skills Icons
 import cssIcon from "./images/css.svg"
 import jsIcon from "./images/javascript.svg"
-import codeIcon from "./images/code.svg"
+import pythonIcon from "./images/python.png"
+import reactIcon from "./images/react-logo.png"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
+import linkedinIcon from "./images/linkedin-logo.png"
+import facebookIcon from "./images/facebook.png"
 
 export default {
     //(Please Do Not Remove The comma(,) after every variable)
@@ -70,34 +73,34 @@ export default {
     ],
     pythonProjects: [
         {
-            title: "Project Four", //Project Title - Add Your Project Title Here
+            title: "LinkedIn Scrapper", //Project Title - Add Your Project Title Here
             para:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+                "A bot for scrapping data from LinkedIn and save the data into an Excel file", // Add Your Service Type Here
             //Project Image - Add Your Project Image Here
             imageSrc:
                 "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
             //Project URL - Add Your Project Url Here
-            url: "http://chetanverma.com/",
+            github: "https://github.com/Leoplazavzla/Linkedin-grab-data",
         },
         {
-            title: "Project Five", //Project Title - Add Your Project Title Here
+            title: "AirTM Automation Bot", //Project Title - Add Your Project Title Here
             para:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+                "Automation bot made to accept forex transactions on its own and send me notifications on my phone. Graphic interface was made with Tkinter", // Add Your Service Type Here
             //Project Image - Add Your Project Image Here
             imageSrc:
                 "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
             //Project URL - Add Your Project Url Here
-            url: "http://chetanverma.com/",
+            github: "https://github.com/Leoplazavzla/airtmBot",
         },
         {
-            title: "Project Six", //Project Title - Add Your Project Title Here
+            title: "Get LinkedIn Accounts", //Project Title - Add Your Project Title Here
             para:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+                "Web scrapper made to obtain LinkedIn accounts from a single name and country.", // Add Your Service Type Here
             //Project Image - Add Your Project Image Here
             imageSrc:
                 "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
             //Project URL - Add Your Project Url Here
-            url: "http://chetanverma.com/",
+            github: "https://github.com/Leoplazavzla/goolescrapper",
         },
     ],
 
@@ -105,9 +108,9 @@ export default {
 
     // About Secton --------------
     aboutParaOne:
-        "I'm a digital marketing professional who decided to switch career into programming at my 30s. Coming from a destroyed nation and having to migrate to a new country, I am very familiar with the concept of start-over as I have started a new life.",
+        "I'm a digital marketing professional who decided to switch career into programming at my 30s. Coming from a destroyed nation and having to migrate to a new country, I am very familiar with the concept of start-over as I have started a new life already in Argentina.",
     aboutParaTwo:
-        "I have experience not just with digital marketing but also Project Management. Being PRINCE2 and Agile Scrum my two major references in the subject. This makes me a good candidate as I am not only focused on the technical aspects of a project, but also the business and human side of it.",
+        "My experience it's not just with digital marketing and SEO, but also Project Management. Being PRINCE2 and Agile Scrum my two major references in the subject. This makes me a good candidate as I am not only focused on the technical aspects of a project, but also the business and human side of it.",
     aboutParaThree:
         "I know how to communicate well, offer ideas and express any concerns. Also, being 33 and having worked the last 8 years for the same company, allows me to have a more focused mindset and a bigger sense of responsibility with the quality of my work.",
     aboutImage:
@@ -121,19 +124,19 @@ export default {
 
     skills: [
         {
-            img: cssIcon,
+            img: reactIcon,
             para:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                "I can work with classes or functional components, Hooks, Context API or Redux, Bootstrap or Material UI. Creating apps from scratch to deploy with Firebase",
         },
         {
             img: jsIcon,
             para:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                "I've spent the last three years studying EcmaScript non-stop. I love the language but as soon as I found ReactJS I stopped creating projects with it :-(",
         },
         {
-            img: codeIcon,
+            img: pythonIcon,
             para:
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+                "I've regain the love for programming that JS made me lost with Python! I've made much more small projects with it and moving on to learn Django ",
         },
     ],
 
@@ -153,16 +156,12 @@ export default {
         // Add Or Remove The Link Accordingly
         { img: githubIcon, url: "https://github.com/Leoplazavzla" },
         {
-            img: codepenIcon,
+            img: linkedinIcon,
             url: "https://www.linkedin.com/in/plazaleonardo/",
         },
         {
-            img: dribbbleIcon,
-            url: "https://dribbble.com/chetanverma",
-        },
-        {
-            img: instagramIcon,
-            url: "https://www.instagram.com/",
+            img: facebookIcon,
+            url: "https://www.facebook.com/profile.php?id=688063958",
         },
     ],
 
