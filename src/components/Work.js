@@ -7,7 +7,7 @@ import data from "../myData"
 
 const Work = () => {
   return (
-    <div className="section" id="work">
+    <div className="section" id="work" name={"work"}>
       <div className="container">
         <div className="work-wrapper">
           <Fade bottom>

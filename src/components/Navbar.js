@@ -8,16 +8,15 @@ const Navbar = () => {
         <div className="navbar-wrapper">
           <div
             role="button"
-            //onClick={() => scrollTo("#home")}
             className="name"
             tabIndex={0}
           >
             Leonardo Plaza.
           </div>
           <div className="links-wrapper">
-            <button >Work</button>
-            <button >About</button>
-            <button >Contact</button>
+            <a href={"#work"}>Work</a>
+            <a href={"#about"}>About</a>
+            <a href={"#contact"}>Contact</a>
           </div>
         </div>
       </div>

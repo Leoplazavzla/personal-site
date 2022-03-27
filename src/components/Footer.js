@@ -5,7 +5,7 @@ import "../styles/footer.scss"
 
 const Footer = () => {
   return (
-    <div className="section" id="contact">
+    <div className="section" id="contact" name={"contact"}>
       <div className="container">
         <div className="footer-container">
           <Fade bottom cascade>

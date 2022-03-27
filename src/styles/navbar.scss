@@ -10,7 +10,7 @@
     font-weight: 600;
   }
   .links-wrapper {
-    button {
+    a {
       text-decoration: none;
       padding: 10px;
       font-family: "Open Sans";
@@ -21,6 +21,7 @@
       outline: none;
       border: 0px;
       cursor: pointer;
+      color: black;
       &:hover {
         opacity: 1;
       }
