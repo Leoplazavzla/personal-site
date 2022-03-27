@@ -1,3 +1,4 @@
+@import "include-media";
 .work-wrapper {
   width: 80vw;
   margin-top: 10vh;
@@ -6,7 +7,7 @@
   align-items: center;
   h1 {
     font-size: 3rem;
-    line-height: 60px;
+    line-height: 50px;
     font-weight: bold;
   }
   .grid {
@@ -14,14 +15,14 @@
     margin-top: 10px;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    /*@include media(">=phone", "<lgphone") {
+    @include media(">=phone", "<lgphone") {
       grid-template-columns: 1fr;
     }
     @include media(">=lgphone", "<tablet") {
       grid-template-columns: 1fr;
     }
     @include media(">=tablet", "<desktop") {
-      grid-template-columns: 1fr 1fr;
-    }*/
+      grid-template-columns: 1fr 1fr 1fr;
+    }
   }
 }

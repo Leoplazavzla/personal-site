@@ -1,14 +1,11 @@
 // Skills Icons
-import cssIcon from "./images/css.svg"
 import jsIcon from "./images/javascript.svg"
 import pythonIcon from "./images/python.png"
 import reactIcon from "./images/react-logo.png"
+import profilePicture from "./images/leo-full-body-500.png"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
-import instagramIcon from "./images/instagram.svg"
 import linkedinIcon from "./images/linkedin-logo.png"
 import facebookIcon from "./images/facebook.png"
 
@@ -113,8 +110,7 @@ export default {
         "My experience it's not just with digital marketing and SEO, but also Project Management. Being PRINCE2 and Agile Scrum my two major references in the subject. This makes me a good candidate as I am not only focused on the technical aspects of a project, but also the business and human side of it.",
     aboutParaThree:
         "I know how to communicate well, offer ideas and express any concerns. Also, being 33 and having worked the last 8 years for the same company, allows me to have a more focused mindset and a bigger sense of responsibility with the quality of my work.",
-    aboutImage:
-        "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    aboutImage: profilePicture,
 
     //   End About Section ---------------------
 
@@ -144,9 +140,9 @@ export default {
 
     //   Promotion Section --------------------------
 
-    promotionHeading: "Heading",
+    promotionHeading: "Current Studies",
     promotionPara:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "I've found very easy to deploy apps with Firebase but my main goal is to become fullstack so I can deploy my own apps without paying Google :-) I am also eager to understand what happens on the other side of the web. Where the good old typed languages rest. So I'm learning the Django framework at this very moment.",
     // End Promotion Section -----------------
 
     //   Contact Section --------------
