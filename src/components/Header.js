@@ -29,12 +29,6 @@ const Header = () => {
                   ? data.headerTagline[1]
                   : "products, brands"}
               </h1>
-              <h1>
-                {" "}
-                {data.headerTagline[2]
-                  ? data.headerTagline[2]
-                  : "and experience"}
-              </h1>
             </div>
           </Fade>
           <Fade bottom>
@@ -42,9 +36,8 @@ const Header = () => {
           </Fade>
           <Fade bottom>
             <a
-              href={`mailto:${
-                data.contactEmail ? data.contactEmail : "leoplazavzla@gmail.com"
-              }`}
+              href={data.social[1].url}
+              target={'blank'}
               className="primary-btn"
             >
               CONNECT WITH ME

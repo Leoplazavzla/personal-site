@@ -1,6 +1,5 @@
 {
   "name": "leo-portfolio-website",
-  "homepage": "https://leoplazavzla.github.io/personal-website/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -11,25 +11,28 @@ const Work = () => {
       <div className="container">
         <div className="work-wrapper">
           <Fade bottom>
-            <h1>JavaScript and ReactJS</h1>
+            <h1>React JS projects</h1>
           </Fade>
 
           <div className="grid">
             <Fade bottom cascade>
               {data.projects.map((project, index) => (
-                <Card
-                  key={index}
-                  heading={project.title}
-                  paragraph={project.para}
-                  imgUrl={project.imageSrc}
-                  projectLink={project.url}
-                  githubLink={project.github}
-                ></Card>
+                  <>
+                    <h3>{project.title}</h3>
+                    <p>{project.technologies}</p>
+                    <Card
+                      key={index}
+                      paragraph={project.para}
+                      imgUrl={project.imageSrc}
+                      projectLink={project.url}
+                      githubLink={project.github}
+                    ></Card>
+                  </>
               ))}
             </Fade>
           </div>
         </div>
-        <div className="work-wrapper">
+        {/*<div className="work-wrapper">
           <Fade bottom>
             <h1>Python Projects</h1>
           </Fade>
@@ -47,7 +50,7 @@ const Work = () => {
               ))}
             </Fade>
           </div>
-        </div>
+        </div>*/}
       </div>
     </div>
   )

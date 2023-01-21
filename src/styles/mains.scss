@@ -2,16 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap");
 @import "include-media";
 // Atoms
-@import "./card.scss";
+@import "card";
 
 // Components
-@import "./navbar.scss";
-@import "./header.scss";
-@import "./work.scss";
-@import "./about.scss";
-@import "./skills.scss";
-@import "./promotion.scss";
-@import "./footer.scss";
+@import "navbar";
+@import "header";
+@import "work";
+@import "about";
+@import "skills";
+@import "promotion";
+@import "footer";
 
 * {
   font-family: "Montserrat";
